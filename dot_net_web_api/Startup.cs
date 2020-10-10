@@ -31,7 +31,7 @@ namespace dot_net_web_api
 
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo
+                c.SwaggerDoc("v1", new OpenApiInfo 
                 {
                     Version = "v1",
                     Title = "TestWebAPI",
